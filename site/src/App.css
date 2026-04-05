@@ -20,6 +20,24 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.cta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  background: linear-gradient(135deg, #6c5ce7, #a855f7);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+}
+
 .links {
   display: flex;
   gap: 1.5rem;
