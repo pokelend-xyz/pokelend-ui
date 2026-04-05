@@ -12,3 +12,20 @@ p {
   font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.links a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: #fff;
+}
