@@ -3,6 +3,7 @@ import './App.css'
 function App() {
   return (
     <div className="container">
+      <img src="/logo-150.png" alt="Pokelend" className="logo" />
       <h1>Pokelend</h1>
       <p>Coming Soon</p>
       <div className="links">

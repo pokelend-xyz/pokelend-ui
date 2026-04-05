@@ -2,6 +2,13 @@
   padding: 2rem;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
