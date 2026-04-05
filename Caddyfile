@@ -1,0 +1,8 @@
+pokelend.xyz {
+	root * /srv
+	file_server
+}
+
+www.pokelend.xyz {
+	redir https://pokelend.xyz{uri} permanent
+}
