@@ -1,2 +1,4 @@
 caddy/data/
 caddy/config/
+site/node_modules/
+site/dist/
